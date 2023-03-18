@@ -8,10 +8,10 @@ require('./models/Message');
 const authRoutes = require('./routes/authRoutes');
 const uploadMediaRoutes = require('./routes/uploadMediaRoutes');
 const messageRoutes = require('./routes/messageRoutes');
-//requireToken skipped
 
 
-//.......18
+
+
 const { createServer } = require("http");
 const { Server } = require("socket.io");
 
@@ -63,7 +63,3 @@ app.listen(port, () => {
     console.log("Server is running on port " + port);
 })
 
-
-
-// 6353f0c6a52cde6dafae64d2634c1d60f09a4f3ff40be517
-// 6353f0c6a52cde6dafae64d2634c1d60f09a4f3ff40be517
